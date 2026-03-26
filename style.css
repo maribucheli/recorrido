@@ -10,12 +10,16 @@ img {
 }
 
 
-#escena1 {
 
-    background-image: url("/assets/egipto3.jpg");
-    background-size: cover; 
 
+    #escena1 {
+  background-image: url("./assets/egipto3.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
+
+
 
 #escena2 {
 
