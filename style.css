@@ -4,7 +4,7 @@ img {
 
 #home {
 
-    background-image: url("./assets/collage.webp");
+    background-image: url("assets/collage.webp");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +16,7 @@ img {
 
 
     #escena1 {
-  background-image: url("./assets/egipto3.jpg");
+  background-image: url("assets/egipto3.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +26,7 @@ img {
 
 #escena2 {
 
-    background-image: url("./assets/edadmedia2.jpg");
+    background-image: url("assets/edadmedia2.jpg");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -36,7 +36,7 @@ img {
 
 #escena3 {
 
-    background-image: url("./assets/ilustracion2.jpg");
+    background-image: url("assets/ilustracion2.jpg");
    background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -45,7 +45,7 @@ img {
 
 #escena4 {
 
-    background-image: url("./assets/nyan.gif");
+    background-image: url("assets/nyan.gif");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -55,7 +55,7 @@ img {
 
 #escena5 {
 
-    background-image: url("./assets/futuro.webp");
+    background-image: url("assets/futuro.webp");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
