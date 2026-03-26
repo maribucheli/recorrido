@@ -12,14 +12,14 @@ img {
 
 #escena1 {
 
-    background-image: url("/assets/egipto.jpg");
+    background-image: url("/assets/egipto3.jpg");
     background-size: cover; 
 
 }
 
 #escena2 {
 
-    background-image: url("/assets/edadmedia.avif");
+    background-image: url("/assets/edadmedia2.jpg");
     background-size: cover;
 
 }
@@ -27,7 +27,7 @@ img {
 
 #escena3 {
 
-    background-image: url("/assets/ilustracion.jpg");
+    background-image: url("/assets/ilustracion2.jpg");
     background-size: cover;
 
 }
