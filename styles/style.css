@@ -2,17 +2,47 @@ img {
     width: 25vw;  
 }
 
-#inicio {
+#home {
 
-    background-image: url("/assets/patita.gif");
+    background-image: url("/assets/collage.webp");
 
 
 }
 
 
+#escena1 {
+
+    background-image: url("/assets/egipto.jpg");
+    background-size: cover; 
+
+}
+
 #escena2 {
 
-    background-image: url("/assets/catcompu.gif");
+    background-image: url("/assets/edadmedia.avif");
+    background-size: cover;
 
+}
+
+
+#escena3 {
+
+    background-image: url("/assets/ilustracion.jpg");
+    background-size: cover;
+
+}
+
+#escena4 {
+
+    background-image: url("/assets/nyan.gif");
+    background-size: cover;
+
+}
+
+
+#escena5 {
+
+    background-image: url("/assets/futuro.webp");
+    background-size: cover;
 
 }
