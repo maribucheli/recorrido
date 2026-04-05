@@ -14,6 +14,13 @@ body {
   text-align: center;    /* centra texto */
 }
 
+
+.sombra { 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
 #home {
 
     background-image: url("assets/evolucion.jpg");
@@ -84,7 +91,7 @@ body {
 
 
     #escena1 {
-  background-image: url("assets/egiptogato.jpg");
+  background-image: url("assets/hieroglyphics-429863-640_ver_1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -172,9 +179,32 @@ body {
 }
 
 
+.comentario4 {
+  position: relative;
+  display: inline-block;
+}
+
+.comentario4::after {
+  content: "Primer inventario de razas: Catus domesticus, Catus angorensis, Catus hispanicus y Catus coeruleus.";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.comentario4:hover::after {
+  opacity: 1;
+}
+
+
 #escena4 {
 
-    background-image: url("assets/gatosilly.jpg");
+    background-image: url("assets/descargar\ \(4\).jpg");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -184,7 +214,7 @@ body {
 
 #escena5 {
 
-    background-image: url("assets/gatocalipsis.jpg");
+    background-image: url("assets/descargar\ \(6\).jpg");
     background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
