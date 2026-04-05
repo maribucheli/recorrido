@@ -2,6 +2,18 @@ img {
     width: 25vw;  
 }
 
+html {
+  font-family: 'Lucida Sans Typewriter', sans-serif;
+}
+
+body {
+  cursor: url('assets/huella.png'), auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centra horizontal */
+  text-align: center;    /* centra texto */
+}
+
 #home {
 
     background-image: url("assets/evolucion.jpg");
@@ -12,7 +24,63 @@ img {
 
 }
 
+.spinning-image {
+  transition: transform 0.8s ease-in-out;
+}
 
+.spinning-image:hover {
+  transform: rotate(360deg);
+}
+
+.gata-intro {
+  position: relative;
+  
+  
+}
+
+
+.comentario {
+  position: relative;
+  display: inline-block;
+}
+
+.comentario::after {
+  content: "¡Me siento toda una faraona!";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.comentario:hover::after {
+  opacity: 1;
+}
+
+.comentario1 {
+  position: relative;
+  display: inline-block;
+}
+
+
+
+.boton {
+  background: black;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  align: center;
+  transition: 0.3s;
+}
+
+.boton:hover {
+  background: orange;
+  transform: scale(1.1);
+}
 
 
     #escena1 {
@@ -22,8 +90,44 @@ img {
   background-repeat: no-repeat;
   
 }
+.comentario1::after {
+  content: "Viendo ese país tan seco, tiene sentido.";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
 
+.comentario1:hover::after {
+  opacity: 1;
+}
 
+.comentario2 {
+  position: relative;
+  display: inline-block;
+}
+
+.comentario2::after {
+  content: "¡Quisiera tener tanto estilo como ella!";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.comentario2:hover::after {
+  opacity: 1;
+}
 
 #escena2 {
 
@@ -43,6 +147,30 @@ img {
   background-repeat: no-repeat;
 
 }
+
+
+.comentario0 {
+  position: relative;
+  display: inline-block;
+}
+
+.comentario0::after {
+  content: "Bonjour, mademoiselle. Me complace saludarla...";
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background: white;
+  padding: 8px 10px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: 0.3s;
+  white-space: nowrap;
+}
+
+.comentario0:hover::after {
+  opacity: 1;
+}
+
 
 #escena4 {
 
