@@ -220,3 +220,30 @@ body {
   background-repeat: no-repeat;
 
 }
+
+
+:root {
+  --colorFuente: black; 
+  --colorBorde: white;
+  --minPantalla: 600px; 
+}
+
+.elemento {
+  width: 100vw;
+  background-color: blueviolet;
+  font-size: 20em;
+  border: 1px black; 
+}
+
+@media (max-width: 600px) {
+
+  .elemento {
+    background-color: blue;
+    font-size: 20em;
+  }
+
+body {
+  min-height: 100vh;
+}
+}
+
